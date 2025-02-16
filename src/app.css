@@ -1,0 +1,54 @@
+/* Reset all margins, paddings, and borders */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Ensure HTML and body take full height */
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Reset anchor styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Reset button styles */
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Remove default input and button styling */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* Reset images */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Prevent animations & transitions during system prefers-reduced-motion */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+  
