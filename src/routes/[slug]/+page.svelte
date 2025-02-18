@@ -1,9 +1,6 @@
 <script lang="ts">
-    import Header from '$lib/components/Header.svelte';
     export let data;
 </script>
-
-<Header title="Blogposts" />
 
 <article class="blog-post">
     <div class="blog-post-title">
